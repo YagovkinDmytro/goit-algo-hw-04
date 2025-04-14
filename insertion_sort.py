@@ -7,6 +7,3 @@ def insertion_sort(lst):
                 j -= 1
         lst[j+1] = key 
     return lst
-
-numbers = [5, 3, 8, 4, 2]
-insertion_sort(numbers)
